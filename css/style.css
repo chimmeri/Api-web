@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: ghostwhite;
+}
+
+header #logo{
+    color: rgb(155, 94, 9);
+}
+
+header #logo small{
+    font-size: 7px;
+}
+.containerr{
+    font-size: 30px;
+    /* position: relative; */
+    /* left: -30%; */
+    margin-top: 18px;
+    padding-left: 10px;
+}
+.sun{
+    background-color: rgb(255, 196, 0);
+    border-radius: 50px;
+    border: 1px solid grey;
+    font-family: sans-serif;
+    padding: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#paragraph{
+    padding: 9% 30%;
+}
+
+#paragraph h1{
+    font-family: 'Times New Roman';
+}
+
+#paragraph h1 span{
+    color: rgb(177, 116, 24);
+}
+
+#paragraph p{
+    color: rgb(95, 64, 24);
+    font-family: monospace;
+}
+
+button{
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: monospace;
+    background-color: rgb(238, 145, 16);
+    margin: 0 40%; 
+    box-shadow: 5px 5px 5px black;
+    transition: 0.4s ease;
+}
+
+button a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+    color: rgb(238, 145, 16);
+    box-shadow: 5px 5px 5px black;
+}
+
+@media screen and (max-width:770px) {
+    button{ border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: rgb(238, 145, 16);
+    margin: 0 20%; 
+    box-shadow: 5px 5px 5px black;
+    transition: 0.4s ease;
+    }
+}
+
+section .class{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.front-end h2{
+     margin: 20px 25%; 
+    color: rgb(153, 111, 32);
+    font-size: 40px;
+    font-family: Algerian;
+    text-shadow: 3px 3px 3px black;
+}
+
+.front-end p{
+    font-size: 20px;
+    color: rgb(86, 52, 6);
+    font-family: arial;
+    padding: 10px 20px;
+
+}
+
+.front-end p a{
+    color: orangered;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+ .second{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.html{
+    padding: 20px 0;
+}
+
+.css{
+    padding: 20px 0;
+}
+
+.html{
+    padding: 20px 0;
+}
+
+.js{
+    padding: 20px 0;
+}
+
+.html-content{
+    background-color: ghostwhite;
+}
+
+.html-content h2{
+    color: rgb(158, 97, 11);
+}
+
+.html-content p a{
+    font-size: 30px;
+    color: rgb(158, 97, 11);
+}
+
+.basics{
+    padding: 20px 40px;
+    color: rgb(95, 64, 24);
+}
+
+.style{
+    padding: 20px 40px;
+    color: rgb(95, 64, 24);
+}
+
+.script{
+    padding: 20px 40px;
+    color: rgb(95, 64, 24);
+}
+footer{
+    text-align: center;
+    display: flex;
+    margin: 20px 0;
+    padding: 20px 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width:770px) {
+    .footer-logo{
+        text-align: center;
+        display: flex;
+        margin: 0 0;
+        padding: 0 10px;
+        justify-content: center;
+    }
+    .icons{
+        padding: 0 10px;
+        width: 30%;
+    }
+}
